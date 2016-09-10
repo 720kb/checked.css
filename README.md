@@ -139,6 +139,7 @@ Tremolo
 <code style="color:royalblue">
 <b>&#x3C;input</b> type="checkbox" class="<b>checked-splash</b>"<b>/&#x3E;</b>
 </code>
+<br>
 <code style="color:royalblue">
 <b>&#x3C;input</b> type="radio" class="<b>checked-splash</b>"<b>/&#x3E;</b>
 </code>
