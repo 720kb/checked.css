@@ -18,7 +18,10 @@
     ".sass-lint.yml",
     "lib",
     "gulpfile.js",
-    "*.md"
+    "*.md",
+    "**/.*",
+    "test",
+    "tests"
   ],
   "description": "Tiny set of :checked pure CSS animations.",
   "authors": [
@@ -38,5 +41,6 @@
     "input",
     "css",
     "css3"
-  ]
+  ],
+  "main": ""
 }

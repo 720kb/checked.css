@@ -7,7 +7,7 @@ Tiny set of pure CSS animations that applies to :checked elements.
 
 </p>
 <p align="center">
-<sub>	... the poer of  <a href="https://github.com/720kb/radiobox.css">radiobox.css</a> + <a href="https://github.com/720kb/checkbox.css">checkbox.css</a> all in one</sub>
+<sub>	... THE POWER of  <a href="https://github.com/720kb/radiobox.css">Radiobox.css</a> + <a href="https://github.com/720kb/checkbox.css">Checkbox.css</a> all in one</sub>
 </p>
 </br>
 <p align="center" style="text-align:center">
