@@ -45,8 +45,8 @@ pre {
 .color-custom{
   color: #99928d;
 }
-input[type="radio"]{
-  margin-right:3px;
+input[type="checkbox"], input[type="radio"]{
+  margin-right:5px;
   margin-left:-3px;
   position: relative;
 }
