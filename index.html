@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width"/>
+  <meta http-equiv="cache-control" content="max-age=86400" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="Animated pure CSS checked inputs and elements, a tiny library to animate whatever is :checked."/>
+  <meta name="keywords" content="css, animated,  checkbox, checked, form, radio, input,radio, inputs,css3, animation, funny, ui, ux, html, style,toggle" />
+  <meta name="audience" content="all" />
+  <meta name="distribution" content="global" />
+  <meta name="rating" content="general" />
+  <meta name="revisit-after" content="1 days" />
+  <meta name="copyright" content="720kb (720kb.net)" />
+  <meta name="google" content="notranslate" />
+  <title>Animated pure CSS checked inputs and elements, a tiny library to animate whatever is :checked.</title>
+  <link rel="stylesheet" href="bower_components/csshelper/dist/helper.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="gh-pages.css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="checked.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div class="separator50"></div>
+  <div class="line center-content">
+    <img src="logo.svg" width="230"/>
+  </div>
+  <div class="line center-content">
+    <h1 class="slogan">Pure CSS animations that applies to any checked element.</h1>
+    <h2 class="slogan">The power of  <a href="https://720kb.github.io/checkbox.css" target="_blank" class="color-custom">checkbox.css</a> and <a href="https://720kb.github.io/radiobox.css" class="color-custom">radiobox.css</a> all in one.</h2>
+    <small></small>
+  </div>
+  <div class="separator30"></div>
+  <div class="line center-content">
+    <div class="line example">
+      <div class="separator50"></div>
+      <form class="col6 offset-left2 center-content">
+          <h6 class="color-muted">Choose the best animation</h6>
+            <div class="separator10"></div>
+      <select>
+        <option>Boing</option>
+          <option>Tremolo</option>
+            <option>Jump</option>
+              <option>Yo</option>
+                <option>Splash</option>
+                  <option>Wheel</option>
+                    <option>Ufo</option>
+                      <option>Pump</option>
+                        <option>Scatman</option>
+                          <option>Up</option>
+                            <option>Down</option>
+                              <option>Away</option>
+                                <option>Boom</option>
+                                  <option>Focus</option>
+                                    <option>Roll</option>
+                                      <option>Omg</option>
+                                        <option>Tv</option>
+                                          <option>Hey</option>
+                                            <option>Inout</option>
+                                              <option>Hooray</option>
+                                                <option>Vertigo</option>
+                                                  <option>Return</option>
+                                                    <option>Flash</option>
+      </select>
+        <div class="separator30"></div>
+      <div class="line center-content">
+          <label tabindex="0"><input id="checkbox" class="checked-boing" type="checkbox" name="x" value="1"/> Boing</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><input id="radio" class="checked-boing" type="radio" name="x" value="2"/> Boing</label>
+      </div>
+      </form>
+      <div class="separator30"></div>
+       <div class="line center-content color-muted">
+    </div>
+      <div class="separator30"></div>
+    </div>
+    <div class="separator10"></div>
+    <div class="separator10"></div>
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button color-custom" href="https://github.com/720kb/checked.css" data-icon="octicon-star" data-count-href="/720kb/checked.css/stargazers" data-count-api="/repos/720kb/checked.css#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star 720kb/checked.css on GitHub">Star</a>
+    &nbsp;&nbsp;&nbsp;
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button color-custom" href="https://github.com/720kb/checked.css/archive/gh-pages.zip" data-icon="octicon-cloud-download" aria-label="Download 720kb/checked.css on GitHub">Zip</a>
+    &nbsp;&nbsp;&nbsp;
+    <a class="github-button color-custom" href="https://github.com/720kb/checked.css#readme" data-icon="octicon-book" aria-label="Documentation 720kb/checked.css on GitHub">Doc</a>
+      &nbsp;&nbsp;&nbsp;
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button color-custom" href="https://github.com/720kb/checked.css/fork" data-icon="octicon-repo-forked" data-count-href="/720kb/checked.css/network" data-count-api="/repos/720kb/checked.css#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork 720kb/checked.css on GitHub">Fork</a>
+    <div class="line center-content">
+      <div class="separator30"></div>
+      <pre class="bg-red">npm install checked.css</pre>
+      <div class="separator10"></div>
+      <pre class="bg-red">bower install checked.css</pre>
+    </div>
+  </div>
+</div>
+<div class="line center-content color-muted">
+  <div class="separator50"></div>
+  Brought to you by <a href="https://720kb.net" target="_blank" class="color-custom" rel="index,follow">720kb</a>
+<div class="separator50"></div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).on('ready', function onReady() {
+    var checkbox = $('#checkbox')
+    , radio = $('#radio')
+    , select = $('select')
+    , timeout;
+
+    radio.attr('checked', 'checked');
+    checkbox.attr('checked', 'checked');
+    checkbox.bind('click', function (e) {
+        e.preventDefault();
+    });
+    select.change(function onChange(e,a,b) {
+      var selected = select.find(':selected').text();
+      clearTimeout(timeout);
+
+      radio.attr('class', '');
+      checkbox.attr('class', '');
+      var timeout = setTimeout(function () {
+        radio.attr('class', 'checked-' + selected.toString().toLowerCase());
+        checkbox.attr('class','checked-' + selected.toString().toLowerCase());
+      }, 300);
+    });
+  });
+</script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-83850275-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
