@@ -62,9 +62,9 @@
       </select>
         <div class="separator30"></div>
       <div class="line center-content">
-          <label tabindex="0"><input id="checkbox" class="checked-boing" type="checkbox" name="x" value="1"/> Boing</label>
+          <label tabindex="0" id="checkbox-label"><input id="checkbox" class="checked-boing" type="checkbox" name="x" value="1"/> Boing</label>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <label><input id="radio" class="checked-boing" type="radio" name="x" value="2"/> Boing</label>
+          <label id="radio-label"><input id="radio" class="checked-boing" type="radio" name="x" value="2"/> Boing</label>
       </div>
       </form>
       <div class="separator30"></div>
@@ -104,6 +104,8 @@
     var checkbox = $('#checkbox')
     , radio = $('#radio')
     , select = $('select')
+    , radioLabel = $('#radio-label')
+    , checkboxLabel = $('#checkbox-label')
     , timeout;
 
     radio.attr('checked', 'checked');
@@ -118,8 +120,11 @@
       radio.attr('class', '');
       checkbox.attr('class', '');
       var timeout = setTimeout(function () {
+        radioLabel.text(selected.toString());
+        checkboxLabel.text(selected.toString());
         radio.attr('class', 'checked-' + selected.toString().toLowerCase());
         checkbox.attr('class','checked-' + selected.toString().toLowerCase());
+        
       }, 300);
     });
   });
