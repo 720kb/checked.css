@@ -50,6 +50,9 @@ input[type="checkbox"], input[type="radio"]{
   margin-left:-3px;
   position: relative;
 }
+input[type="radio"]{
+  margin-right:3px;
+}
 label {
   -webkit-user-select: none;
   -moz-user-select: none;
