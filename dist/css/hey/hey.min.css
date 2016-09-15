@@ -1,11 +1,11 @@
 /*
  * checked.css
- * v1.0.0
+ * v1.0.1
  * 
- * Tiny set of :checked pure CSS animations.
+ * Tiny set of pure CSS animations that applies to checked elements.
  * https://github.com/720kb/checked.css
  * 
  * MIT license
- * Sat Sep 10 2016
+ * Thu Sep 15 2016
  */
 @-webkit-keyframes hey{50%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}90%{-webkit-filter:blur(40px);filter:blur(40px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}@keyframes hey{50%{-webkit-transform:scale(1.5);transform:scale(1.5);-webkit-filter:blur(20px);filter:blur(20px)}90%{-webkit-filter:blur(40px);filter:blur(40px)}100%{-webkit-transform:none;transform:none;-webkit-filter:none;filter:none}}.checked-hey:checked{-webkit-animation:hey .8s linear;animation:hey .8s linear}

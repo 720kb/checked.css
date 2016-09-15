@@ -1,11 +1,11 @@
 /*
  * checked.css
- * v1.0.0
+ * v1.0.1
  * 
- * Tiny set of :checked pure CSS animations.
+ * Tiny set of pure CSS animations that applies to checked elements.
  * https://github.com/720kb/checked.css
  * 
  * MIT license
- * Sat Sep 10 2016
+ * Thu Sep 15 2016
  */
 .checked-roll:checked{-webkit-transform:rotateX(360deg);transform:rotateX(360deg);-webkit-transition:all .15s linear;transition:all .15s linear}

@@ -1,6 +1,7 @@
 {
   "name": "checked.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "dist/css/checked.min.css",
   "ignore": [
     "node_modules",
     "bower_components",

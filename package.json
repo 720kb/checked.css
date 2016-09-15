@@ -1,6 +1,6 @@
 {
   "name": "checked.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny set of pure CSS animations that applies to checked elements.",
   "keywords": [
     "checked",
