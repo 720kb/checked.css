@@ -16,6 +16,10 @@ background-position: bottom center;
 small, small * {
   font-size:11.5px;
 }
+select,select:hover, select:focus{
+  padding: 0px;
+  -moz-appearance: menulist;
+}
 .slogan{
   font-size: 13px;
   color: rgba(0,0,0, .3);
