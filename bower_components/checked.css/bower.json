@@ -1,0 +1,47 @@
+{
+  "name": "checked.css",
+  "version": "1.0.2",
+  "main": "dist/css/checked.min.css",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "index.html",
+    "logo.png",
+    "bg.png",
+    "gh-pages.css",
+    "*.png",
+    "*.jpg",
+    "*.log",
+    ".gitignore",
+    "conf",
+    "demo",
+    ".sass-lint.yml",
+    "lib",
+    "gulpfile.js",
+    "*.md",
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "description": "Tiny set of :checked pure CSS animations.",
+  "authors": [
+    "720kb <tech@720kb.net>",
+    "45kb <filippo.oretti@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/720kb/checked.css",
+  "keywords": [
+    "checked",
+    "css",
+    "animations",
+    "animated",
+    "checkbox",
+    "radio",
+    "form",
+    "input",
+    "css",
+    "css3"
+  ],
+  "main": ""
+}

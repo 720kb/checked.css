@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+@-webkit-keyframes boing{0%{-webkit-transform:translateY(3px) scaleY(.8);transform:translateY(3px) scaleY(.8)}50%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}90%{opacity:.5;-webkit-transform:translateY(2px) scaleY(1) scaleX(1.5);transform:translateY(2px) scaleY(1) scaleX(1.5)}100%{-webkit-transform:none;transform:none}}@keyframes boing{0%{-webkit-transform:translateY(3px) scaleY(.8);transform:translateY(3px) scaleY(.8)}50%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}90%{opacity:.5;-webkit-transform:translateY(2px) scaleY(1) scaleX(1.5);transform:translateY(2px) scaleY(1) scaleX(1.5)}100%{-webkit-transform:none;transform:none}}.checked-boing:checked{-webkit-animation:boing .2s ease-in-out;animation:boing .2s ease-in-out;-webkit-animation-iteration-count:3;animation-iteration-count:3}

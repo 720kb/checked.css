@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+@-webkit-keyframes wheel{0%{-webkit-transform:scale(1) rotate(50deg);transform:scale(1) rotate(50deg)}30%{-webkit-transform:scale(.9) skewX(9deg);transform:scale(.9) skewX(9deg)}60%{-webkit-transform:scale(1.1) skewY(9deg) rotate(270deg);transform:scale(1.1) skewY(9deg) rotate(270deg)}90%{-webkit-transform:skew(-9deg,-9deg);transform:skew(-9deg,-9deg)}100%{-webkit-transform:none;transform:none}}@keyframes wheel{0%{-webkit-transform:scale(1) rotate(50deg);transform:scale(1) rotate(50deg)}30%{-webkit-transform:scale(.9) skewX(9deg);transform:scale(.9) skewX(9deg)}60%{-webkit-transform:scale(1.1) skewY(9deg) rotate(270deg);transform:scale(1.1) skewY(9deg) rotate(270deg)}90%{-webkit-transform:skew(-9deg,-9deg);transform:skew(-9deg,-9deg)}100%{-webkit-transform:none;transform:none}}.checked-wheel:checked{-webkit-animation:wheel .1s cubic-bezier(.03,.61,.17,.97);animation:wheel .1s cubic-bezier(.03,.61,.17,.97);-webkit-animation-iteration-count:5;animation-iteration-count:5}

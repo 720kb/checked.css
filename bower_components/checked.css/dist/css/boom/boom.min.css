@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+@-webkit-keyframes boom{0%{opacity:.2;-webkit-transform:scale(2);transform:scale(2)}90%{opacity:.01;-webkit-transform:scale(6);transform:scale(6)}100%{-webkit-transform:none;transform:none}}@keyframes boom{0%{opacity:.2;-webkit-transform:scale(2);transform:scale(2)}90%{opacity:.01;-webkit-transform:scale(6);transform:scale(6)}100%{-webkit-transform:none;transform:none}}.checked-boom:checked{-webkit-animation:boom .2s ease-in;animation:boom .2s ease-in;-webkit-animation-iteration-count:1;animation-iteration-count:1}

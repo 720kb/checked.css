@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+@-webkit-keyframes tremolo{0%{-webkit-transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg)}50%{-webkit-transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0);transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0)}90%{-webkit-transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg)}100%{-webkit-transform:none;transform:none}}@keyframes tremolo{0%{-webkit-transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg)}50%{-webkit-transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0);transform:translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0)}90%{-webkit-transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg);transform:translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg)}100%{-webkit-transform:none;transform:none}}.checked-tremolo:checked{-webkit-animation:tremolo 65ms linear;animation:tremolo 65ms linear;-webkit-animation-iteration-count:7;animation-iteration-count:7}

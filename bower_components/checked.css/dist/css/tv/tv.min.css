@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+@-webkit-keyframes tv{50%{-webkit-transform:scale(.6) rotateY(100deg) skew(45deg);transform:scale(.6) rotateY(100deg) skew(45deg)}70%{-webkit-transform:scale(.8) rotateY(200deg) skew(70deg);transform:scale(.8) rotateY(200deg) skew(70deg)}90%{-webkit-transform:scale(1) rotateY(500deg) skew(20deg);transform:scale(1) rotateY(500deg) skew(20deg)}100%{-webkit-transform:none;transform:none}}@keyframes tv{50%{-webkit-transform:scale(.6) rotateY(100deg) skew(45deg);transform:scale(.6) rotateY(100deg) skew(45deg)}70%{-webkit-transform:scale(.8) rotateY(200deg) skew(70deg);transform:scale(.8) rotateY(200deg) skew(70deg)}90%{-webkit-transform:scale(1) rotateY(500deg) skew(20deg);transform:scale(1) rotateY(500deg) skew(20deg)}100%{-webkit-transform:none;transform:none}}.checked-tv:checked{-webkit-animation:tv .3s linear;animation:tv .3s linear}

@@ -1,0 +1,7 @@
+
+.checked-splash {
+  &:checked{
+    transform: scale(2);
+    transition: all .15s linear;
+  }
+}

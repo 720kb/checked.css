@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+.checked-rotate:checked{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transition:all .2s linear;transition:all .2s linear}

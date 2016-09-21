@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+@-webkit-keyframes omg{59%{-webkit-transform:translateY(-4px);transform:translateY(-4px)}60%{-webkit-transform:translateX(-8px) translateY(12px);transform:translateX(-8px) translateY(12px)}70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:scale(.4);transform:scale(.4)}100%{-webkit-transform:none;transform:none}}@keyframes omg{59%{-webkit-transform:translateY(-4px);transform:translateY(-4px)}60%{-webkit-transform:translateX(-8px) translateY(12px);transform:translateX(-8px) translateY(12px)}70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}80%{-webkit-transform:translateX(8px);transform:translateX(8px)}90%{-webkit-transform:scale(.4);transform:scale(.4)}100%{-webkit-transform:none;transform:none}}.checked-omg:checked{-webkit-animation:omg .5s linear;animation:omg .5s linear}

@@ -1,0 +1,11 @@
+/*
+ * checked.css
+ * v1.0.2
+ * 
+ * Tiny set of pure CSS animations that applies to checked elements.
+ * https://github.com/720kb/checked.css
+ * 
+ * MIT license
+ * Wed Sep 21 2016
+ */
+@-webkit-keyframes pump{0%,100%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-20deg);transform:rotate(15deg) skewX(10deg) skewY(-20deg)}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-40deg);transform:rotate(15deg) skewX(10deg) skewY(-40deg)}}@keyframes pump{0%,100%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-20deg);transform:rotate(15deg) skewX(10deg) skewY(-20deg)}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(15deg) skewX(10deg) skewY(-40deg);transform:rotate(15deg) skewX(10deg) skewY(-40deg)}}@-webkit-keyframes pumpit{0%{-webkit-transform:none;transform:none}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(40deg);transform:rotate(-15deg) skewX(-10deg) skewY(40deg)}100%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(20deg);transform:rotate(-15deg) skewX(-10deg) skewY(20deg)}}@keyframes pumpit{0%{-webkit-transform:none;transform:none}50%{-webkit-transform:scale(.8);transform:scale(.8)}80%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(40deg);transform:rotate(-15deg) skewX(-10deg) skewY(40deg)}100%{-webkit-transform:rotate(-15deg) skewX(-10deg) skewY(20deg);transform:rotate(-15deg) skewX(-10deg) skewY(20deg)}}.checked-pump:checked{-webkit-animation:pump .4s cubic-bezier(.03,.61,.17,.97),pumpit .4s .4s linear;animation:pump .4s cubic-bezier(.03,.61,.17,.97),pumpit .4s .4s linear;-webkit-animation-iteration-count:1;animation-iteration-count:1}
