@@ -1,11 +1,11 @@
 <p align="center">
 <img src="http://i.imgur.com/4janijq.png" width="250"/>
 </p>
+
 <p align="center" style="text-align:center">
-
-Tiny set of pure CSS animations that applies to :checked elements.
-
+<b>Tiny set of pure CSS animations that applies to :checked elements.</b>
 </p>
+
 <p align="center">
 <sub>	... THE POWER of  <a href="https://github.com/720kb/radiobox.css">Radiobox.css</a> + <a href="https://github.com/720kb/checkbox.css">Checkbox.css</a> all in one</sub>
 </p>
@@ -128,39 +128,41 @@ Tremolo
 </p>
 
 <br/>
+
 <p align="center" style="text-align:center">
-
 <b>Usage</b>
-
 </p>
 
 <p align="center" style="text-align:center">
-
 <code style="color:royalblue">
 <b>&#x3C;input</b> type="checkbox" class="<b>checked-boing</b>"<b>/&#x3E;</b>
 </code>
+
 <br>
+
 <code style="color:royalblue">
 <b>&#x3C;input</b> type="radio" class="<b>checked-boing</b>"<b>/&#x3E;</b>
 </code>
-
 </p>
 
 <br/>
+
 <p align="center" style="text-align:center">
 <b>Browsers Support</b>
 </p>
+
 <p align="center" style="text-align:center">
 <i>Depending on:</i>
 </p>
-<p align="center" style="text-align:center">
 
+<p align="center" style="text-align:center">
     <a href="http://caniuse.com/#feat=transforms2d" target="_blank">2D Transform</a>
  </p>
+ 
  <p align="center" style="text-align:center">   
     <a href="http://caniuse.com/#feat=css-animation" target="_blank">Keyframes</a>
-
 </p>
+
 
 <br/>
 <p align="center" style="text-align:center">
